@@ -1,0 +1,52 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 100vh;
+}
+form {
+    position: relative;
+    width: 450px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form div {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+form div label {
+    font-size: 1.3rem;
+    color: #333;
+}
+form div input {
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+form  button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 239, 17);
+    color: #000;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+form button:hover {
+    box-shadow: 0 0 5px rgb(255, 238, 0, 0.7),
+    0 0 10px rgb(255, 238, 0, 0.7);
+}

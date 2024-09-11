@@ -1,0 +1,17 @@
+.sameBtn {
+    padding: 8px 20px;
+    border: none;
+    margin: 5px;
+    outline: none;
+    color: #fff;
+    letter-spacing: 0.06rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.edit {
+    background-color: #0f0;
+    color: #000;
+}
+.delete {
+    background-color: #f00;
+}
